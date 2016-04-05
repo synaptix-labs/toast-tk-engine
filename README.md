@@ -25,7 +25,7 @@ It supports BDD and TDD collaborative testing on top of being pluggable to any t
 It makes test scripts easier to share between technical team members (i.e: Developers) and non-technical ones (i.e: Business Analysts) as it overcomes the need for learning a specific scripting syntax.
 
 # Installation
-- **Using MAVEN**
+### Using MAVEN
 
 Add TalanLabs Repository
 ```
