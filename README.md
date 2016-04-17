@@ -24,8 +24,26 @@ Toast TK is not another Cucumber / JBehave like framework, nor a Gherkin based t
 It supports BDD and TDD collaborative testing on top of being pluggable to any test driver of your choice such as Selenium or Fest.  
 It makes test scripts easier to share between technical team members (i.e: Developers) and non-technical ones (i.e: Business Analysts) as it overcomes the need for learning a specific scripting syntax.
 
-# How to use Toast Tk Engine
+# Installation
+### Using MAVEN
 
+Add TalanLabs Repository
+```
+<repository>
+  <id>talanlabs-releases-repository</id>
+  <url>http://nexus.talanlabs.com/content/repositories/releases/</url>
+</repository>
+```
+Add Toast Runtime dependency
+```
+<dependency>
+  <groupId>com.synaptix.toast</groupId>
+  <artifactId>toast-tk-runtime</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
+
+# Usage
 The [toast-tk-example](https://github.com/synaptix-labs/toast-tk-examples) project hosts different examples for:
 - Web Browser automation
 - Custom sentences
