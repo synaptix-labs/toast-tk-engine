@@ -7,15 +7,12 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.google.inject.Inject;
-import com.google.inject.Injector;
-import com.google.inject.multibindings.MapBinder;
 
 import io.toast.tk.dao.domain.impl.test.block.IBlock;
 import io.toast.tk.dao.domain.impl.test.block.SwingPageBlock;
 import io.toast.tk.dao.domain.impl.test.block.TestBlock;
 import io.toast.tk.dao.domain.impl.test.block.VariableBlock;
 import io.toast.tk.dao.domain.impl.test.block.WebPageBlock;
-import io.toast.tk.runtime.block.IBlockRunner;
 
 public class BlockRunnerProvider {
 
